@@ -1,0 +1,23 @@
+.content{
+  height: 100%;
+  width: 100%;
+  background: url('https://static.hdslb.com/live-static/images/bg/5.jpg') no-repeat;
+  position: relative;
+  .video{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    height: 500px;
+    width: 800px;
+    border: none;
+  }
+  .box{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    height: 200px;
+    width: 400px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 10px;
+  }
+}

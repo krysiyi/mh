@@ -39,7 +39,7 @@ export default class Index extends React.Component {
   componentDidMount () {
     setTimeout(() => {
       this.setState({
-        action: true
+        action: false
       })
     },10000)
   }

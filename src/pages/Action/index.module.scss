@@ -132,6 +132,10 @@
         width: 73.5%;
         height: 100%;
         background-color: rgb(255, 255, 255);
+        .normal{
+          width: 100%;
+          margin-bottom: 10px;
+        }
         .list{
           display: flex;
           justify-content: space-around;

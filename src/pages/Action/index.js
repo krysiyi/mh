@@ -11,6 +11,7 @@ import zongdu from '../../assets/image/zongdu.png'
 import zd from '../../assets/image/zd.png'
 import naihu from '../../assets/image/naihu.jpg'
 import three from '../../assets/image/three.png'
+import shouxie from '../../assets/image/shouxie.jpg'
 import xds from '../../assets/image/xds.png'
 import by from '../../assets/video/beiyan.mp4'
 import hy from '../../assets/video/huyang.mp4'
@@ -21,7 +22,7 @@ export default class Index extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      action: false,
+      action: true,
       current: '',
       title: 'week'
     }
@@ -127,10 +128,7 @@ export default class Index extends React.Component {
                   -您的浏览器不支持 video 标签-
                 </video>}
                 
-                {current.length===0&&<video controls className={styles.video}>
-                  <source src={''} type="video/mp4" />
-                  -您的浏览器不支持 video 标签-
-                </video>}
+                {current.length===0&&<img className={styles.normal} src={shouxie} alt='' />}
               
               <div className={styles.list}>
                 <div className={styles.item}>
